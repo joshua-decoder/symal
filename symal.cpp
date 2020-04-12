@@ -507,7 +507,7 @@ int main(int argc, char** argv)
       delete inp;
     }
     if (out != &std::cout) {
-      delete inp;
+      delete out;
     }
   } catch (const std::exception &e) {
     cerr << e.what() << std::endl;
